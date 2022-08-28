@@ -1,0 +1,262 @@
+body{
+    margin: 0%;
+}
+.body_home{
+    margin: 0;
+    background-image: url(imgs/Lighting\ Projects\ -\ Sutton\ House\ Interiors.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p_home{
+    font-size: 600%;
+    text-align: center;
+    color: wheat;
+}
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+.button_home{
+    font-size: 300%;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    width: 100%;
+}
+.button_home:hover{
+    background-color: wheat;
+}
+.body_login{
+    background-image: url(imgs/Mormon\ Channel\ on\ Twitter\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 60%;
+    background-color: hsl(39 77% 83% / 40%) ;
+    height: 80%;
+    border-color: wheat;
+    border-style: solid;
+    margin: auto;
+    margin-top: 4%;
+}
+.p_login{
+    text-align: center;
+    font-size: 350%;
+    font-weight: bolder;
+}
+.login_email{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    width: 80%;
+    font-weight: bolder;
+}
+.login_email1{
+    height: 30px;
+    width: 70%;
+}
+.button_login{
+    width: 30%;
+    margin: 4%;
+    font-size: 200%;
+    margin-left: 37%;
+    
+}
+.button_login:hover{
+ background-color: hsl(39 77% 83% / 40%);
+}
+.reg{
+    display: flex;
+}
+.reg_title{
+    font-size: 500%;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+.reg_img{
+    width: 100%;
+    height: 100%;
+}
+.REG1{
+    margin-left: 3%;
+}
+.REG1 label{
+    font-size: 300%;
+    font-weight: bold;
+}
+.REG1 input {
+    width: 120%;
+    height: 3%;
+}
+.button_reg{
+    margin: 4%;
+    font-size: 200%;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+.button_reg:hover{
+ background-color: hsl(39 77% 83% / 40%);
+}
+.body_reg{
+    background-color: hsl(39 77% 83% / 40%);;
+}
+.home1{
+    background-color: hsl(39 77% 83% / 40%);
+}
+.home_title1{
+    background-color: wheat;
+    display: flex;
+    height: 60px;
+}
+.p_title1{
+    font-size: 250%;
+    font-weight: bold;
+    margin-top: 0%;
+    padding: 0.6%;
+    padding-left: 6%;
+    margin-bottom: 0%;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+    
+    
+}
+li:hover{
+    background-color: beige;
+}
+.sub1{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    background-color: wheat;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+
+.sub ul{
+    display: block ;
+}
+li{
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+.home1 .home_title1 div{
+    width: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.imgs{
+    margin-top: 20px;
+}
+.imgs1{
+    display: flex;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgs1 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.search{
+    background-color: wheat;
+}
+.p_search{
+    font-size: 300%;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+.search1{
+    margin-left: 2%;
+    width: 60%;
+    height: 10%;
+}
+@media (max-width : 776px){
+    .p_home{
+        font-size: 350%;
+    }
+    .button_home{
+        font-size: 200%;
+    }
+    .login{
+    width: 80%;
+    }
+    .p_login{
+        font-size: 250%;
+    }
+    .login_email{
+        font-size: 150%;
+    }
+    .button_login{
+        font-size: 100%;
+    }
+    .reg_title{
+        font-size: 300%;
+    }
+    .REG1 label{
+        font-size: 150%;
+        font-weight: bold;
+    }
+    .REG1 input {
+        width: 90%;
+        height: 3%;
+    }
+    .button_reg{
+        margin: 1%;
+        font-size: 100%;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+
+    .p_title1{
+        font-size: 150%;
+        font-weight: bold;
+        margin-top: 6%;
+        padding: 0.6%;
+        padding-left: 6%;
+        margin-bottom: 0%;
+        height: 70px;
+    }
+    ul{
+        display: none;  
+    }
+    .home1 .home_title1 div{
+        width: 100%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .imgs{
+        margin-top: 20px;
+    }
+    .imgs1{
+        display: block;
+        width: auto;
+    }
+    .imgs1 img {
+        display: block;
+        width: 80%;
+        height: 400px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
